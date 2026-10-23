@@ -242,3 +242,4 @@ Sources and information:
 - https://github.com/levz0r/awesome-vibecoded-apps
 - My brain
 
+Do you have something to add or remove or reword in this guide? Open an issue or a PR!
