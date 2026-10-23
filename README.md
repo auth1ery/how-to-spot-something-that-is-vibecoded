@@ -87,6 +87,8 @@ This one is a little risky, as in some actual human made professional sites use 
 - "Vibecoded site — The site to see vibecoded stuff"
 - "Cool site — The coolest site ever"
 
+If the text uses em dashes sparsely or rarely or not a ton instead of it being the replacement for the beautiful comma, it may not be AI writing!
+
 ## Step 2: How does it look?
 
 This is the big part.
@@ -94,5 +96,6 @@ This is the big part.
 A lot of vibecoded sites usually have the same distinctive generic features to them. No, it's not just "does this site revolve a gradient", there's a lot more to it.
 
 1. They use emojis everywhere and/or frequently
+2. Unicode arrows and symbols are frequently used
 
 foo (wip)
