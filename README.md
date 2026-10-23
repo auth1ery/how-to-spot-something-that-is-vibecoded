@@ -22,7 +22,7 @@ LLMs count as AI in this case, and "vibe coding" will be shortened to "vibecodin
 
 The context of this guide is for vibecoded SITES, not apps.
 
-Any sites that are examples of vibecoding mentioned here are used for informational purposes and not for hating and calling out these sites.
+Any sites that are used as image examples of vibecoding mentioned here are used for informational purposes and not for hating and calling out these sites. Most of these are generic vibecoded sites that say they are vibecoded for informational purposes, and some are real-world vibecoded sites trying to be a real thing.
 
 A human can write generic copy. An AI-generated site can have excellent copy. A site can also be entirely human-written and still be poorly engineered. Don't assume a site is vibecoded just because they use a couple em-dashes. Instead, you should stack these clues and see if they all or most of them match up.
 
@@ -60,12 +60,17 @@ This will be organized from easiest to detect at the start, and hardest to ident
 - No account needed
 - No data collection
 - (insert license name here) licensed
+- That's it
 
 ...which the AI uses because the AI has seen it a ton in its training data from other sites. If it's everywhere or shown as a "pro" of the tool or site, it probably certainly is AI.
 
 HOWEVER: those phrases are common because they're genuinely useful things to communicate to users. A human developer making a privacy-focused tool might use every one of them.
 
+![example of the wording](assets/image5.png)
+
 The more compelling signal is generic claims without meaningful supporting detail. For example, a site claiming "No tracking" while loading several third-party analytics scripts is more suspicious than a site merely using that phrase, or just random ass generic phrases that has no support under them at all.
+
+Vague phrases like: "Launch faster", "Build your dreams", "Create without limits" also count in "random ass generic phrases".
 
 You can also tell by how sentences are structured, and it doesn't matter if the text is fully lowercase or there's capitalization. If they write stuff that reads very robotic or lifeless (e.g. sentences almost and always end with a capital with no real punch to the writing) it also could certainly be AI.
 
@@ -73,12 +78,12 @@ You can also tell by how sentences are structured, and it doesn't matter if the 
 
 If you see headers and titles and words used to organize sections in FULL CAPITALIZATION, it is again, also could certainly be AI.
 
-Examples of these are in the images shown below:
+Examples of these is in the image shown below:
 
-![examples of headers being AI generated 1](assets/image.png)
 ![examples of headers being AI generated 2](assets/image2.png)
 
-This one is a little risky, as in some actual human made professional sites use this remark, but the key word is "some". Most sites that use these stylistic options are almost certainly AI (usually), because AI has no creativity, it just uses the same stuff fed into its brain and morphs it into a way that you want. AI models are very good at reproducing familiar patterns. Without thoughtful direction and revision, that can result in work that feels polished but strangely interchangeable.
+This one is a little risky, as in some actual human made professional sites use this remark, but the key word is "some". Most sites that use these stylistic options are almost certainly AI (usually), This one is a little risky, as in some actual human made professional sites use this remark, but the key word is "some". Most sites that use these stylistic options are almost certainly AI (usually), because AI has no creativity, it just uses the same stuff fed into its brain and morphs it into a way that you want. AI models are very good at reproducing familiar patterns. Without thoughtful direction and revision, that can result in work that feels polished but strangely interchangeable.
+because AI has no creativity, it just uses the same stuff fed into its brain and morphs it into a way that you want. AI models are very good at reproducing familiar patterns. Without thoughtful direction and revision, that can result in work that feels polished but strangely interchangeable.
 
 3. They use em dashes literally everywhere.
 
@@ -87,15 +92,153 @@ This one is a little risky, as in some actual human made professional sites use 
 - "Vibecoded site — The site to see vibecoded stuff"
 - "Cool site — The coolest site ever"
 
-If the text uses em dashes sparsely or rarely or not a ton instead of it being the replacement for the beautiful comma, it may not be AI writing!
+If the text uses em dashes sparsely or rarely or not a ton instead of it being the replacement for the beautiful comma, it may not be AI writing! Some actual humans use em dashes, frequently or non frequently, but it's something to keep in mind of.
 
 ## Step 2: How does it look?
 
 This is the big part.
 
-A lot of vibecoded sites usually have the same distinctive generic features to them. No, it's not just "does this site revolve a gradient", there's a lot more to it.
+A lot of vibecoded sites usually have the same distinctive generic features to them. No, it's not just "does this site revolve a gradient", there's a lot more to it. Here is some examples:
 
 1. They use emojis everywhere and/or frequently
-2. Unicode arrows and symbols are frequently used
+2. They show off features or tools, etc, on grids that on mobile (or even desktop) sometimes has an empty grid space or is filled in
+3. Buttons and such have generic glowing hover effects
+4. This stupid fucking font (will elaborate)
+5. They use unicode symbols
 
-foo (wip)
+This is not a complete list, but these are the more common design aspects AI loves most. Let's elaborate simply for the ones that are not immediately obvious, we don't want to over-explain:
+
+By emojis, I mean something like:
+
+![this](assets/image.png)
+
+...something that uses emojis weirdly where it'll be better to use a picture, an icon (SVG or unicode) or just text by itself.
+
+By grids I mean something like:
+
+![this](assets/image3.png)
+
+...something that uses grids to show off features, or some other things like that. This one is slightly risky to judge as some actual websites use this design aspect, but this one (the image above) is usually what an AI would make.
+
+By stupid fucking font I mean something like:
+
+![this](assets/image4.png)
+
+(aka the Lust font, see https://fontlot.com/lust-font-family/)
+
+By unicode symbols I mean something like:
+
+![this](assets/image6.png)
+
+This one, again, is slightly risky to judge as some actual websites use this design aspect, but this one (the image above) is usually what an AI would make.
+
+## Step 3: How does it even work?
+
+This is where things get a little more technical.
+
+Look at the code. For Chromium browsers you'd either do Right Click > View page source OR press CTRL + U (the main difference is that we are not using inspect element, we are viewing the page source on itself, not the page structure or console logs or network requests, etc)
+
+For Firefox browsers, it's basically the same thing.
+
+If it's compressed or uses a framework (aka calls scripts as in "chunks/foo-7ehs92.js") then it'll be very hard to see and this step would be basically irrelevent (but you can also check if the code is open source! if it is, this is relevant), but if it's made with vanilla JS and HTML, you could peek at the code and see if there are any comments in the code easily with no hurdles to get through!
+
+Look for these comments, let's go forward with them one by one and why a normal human wouldn't really write these comments.
+
+For one,
+
+```javascript
+—————————————— WORKING STATE ———————————————————
+```
+
+A normal human wouldn't go out of their way to use em dashes instead of the good 'ol normal dash. Something like "------------------ WORKING STATE -----------" would be a bit more human, but why are we even capitalizing the text? Some real humans capitalize their comments, but usually it would be either normal grammar or lowercase text. The em dashes are the main red flag though, again some real people who uses their keyboard to write out functions instead of writing a prompt usually wouldn't use em dashes, and sometimes they capitalize their comments.
+
+However, they can also just be lowercase or such. Just spot the em dashes.
+
+Also, something like:
+
+```javascript
+/* ==================================================
+   SET LINK
+================================================== */
+```
+
+...also slightly sounds, but the bare difference is that they use equal signs instead of normal dashes (BUT NORMAL PROGRAMMERS USE BOTH SOMETIMES!) and again, the text wouldn't be capitalized normally (key word: normally) when a human is writing them, which is another sign AI wrote this code.
+
+Another spot to check if something is vibecoded (mainly for ChatGPT models, not Claude or Gemini models) is to see if the code is VERY spaced out. For example:
+
+```javascript
+    const updatesContainer =
+        document.getElementById("updatesContainer");
+
+    if (updatesContainer) {
+
+        updatesContainer.innerHTML = "";
+
+        const updates =
+            Array.isArray(data.updates)
+                ? data.updates
+                : [];
+
+        updates.forEach(update => {
+
+            const box =
+                document.createElement("div");
+
+            box.className =
+                "update-box";
+
+            box.innerHTML = `
+
+                <div class="update-date">
+                    ${escapeHTML(update.date)}
+                </div>
+
+                <h3>
+                    ${escapeHTML(update.title)}
+                </h3>
+
+                <p>
+                    ${escapeHTML(update.description)}
+                </p>
+
+            `;
+
+            updatesContainer.appendChild(box);
+
+        });
+    }
+```
+
+...but this one is VERY weak to judge with. VERY weak. Many developers have their own way of writing code, and this style is no exception.
+
+The important thing to remember is that **working code and good code aren't necessarily the same thing.**
+
+A site can load, look pretty, and even have working features while still containing unnecessary complexity, fragile implementations, and serious oversights.
+
+Don't judge a project by how many files it has, how modern its framework is, or whether its developer uses a particular coding style. Judge it with this guide... but wait, you don't know how to use this guide to detect vibecoded sites without using AI to do it? What a perfect time to tell you:
+
+## How to use this guide (in the real world)
+
+You can use this guide to see if a site is vibecoded in any way you want! However, you can't go off by one reason and automatically assume. You must see if most of these reasons or elements mentioned in this page apply to the site you suspect of vibecoding, or at least more than half.
+
+This guide is only used if the developer says they did not vibecode the app although the site looking vibecoded, or the site looking vibecoded and is closed-source and you just want to verify if it is vibecoded.
+
+This guide is only useless if the site is open-source and has Claude listed as a contributor in the contributor section.
+
+Thank you for reading through this!
+
+I take a slightly negative stance on AI, but I am mostly neutral. My view is that AI should be used as a tool, not to replace or do all the work for you. You can't just make a portfolio site with AI because your portfolio is basically typing prompts, which only AI techbros will hire.
+
+Sources and information:
+- https://www.reddit.com/r/vibecoding/comments/1p5vfjr/i_analysed_500_vibe_coded_websites_heres_what_i/
+- https://www.reddit.com/r/vibecoding/comments/1qas3fc/is_there_a_way_to_see_if_an_appsite_has_been/
+- https://www.anthropic.com/research
+- https://openai.com/research/index/
+- https://en.wikipedia.org/wiki/Vibe_coding
+- https://unu.edu/inweh/collection/environmental-cost-of-AIs-Enrgy-Use-Carbon-water-and-land-footprints
+- https://libguides.ecu.edu/c.php?g=1395131&p=10318505
+- https://globalcarbonfund.com/carbon-news/ais-environmental-cost-data-centers-now-rival-entire-nations-in-energy-water-and-land-use/
+- https://guides.library.queensu.ca/c.php?g=740510&p=5344286
+- https://github.com/levz0r/awesome-vibecoded-apps
+- My brain
+
