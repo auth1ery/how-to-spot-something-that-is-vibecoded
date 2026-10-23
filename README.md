@@ -223,6 +223,8 @@ You can use this guide to see if a site is vibecoded in any way you want! Howeve
 
 This guide is only used if the developer says they did not vibecode the app although the site looking vibecoded, or the site looking vibecoded and is closed-source and you just want to verify if it is vibecoded.
 
+However this guide is not 100% ACCURATE! As they always say, the suspect is innocent until proven guilty. Don't use this as a pure source-of-truth because I am a human and I make mistakes.
+
 This guide is only useless if the site is open-source and has Claude listed as a contributor in the contributor section.
 
 Thank you for reading through this!
