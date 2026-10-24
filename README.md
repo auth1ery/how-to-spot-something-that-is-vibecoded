@@ -82,7 +82,7 @@ Examples of these is in the image shown below:
 
 ![examples of headers being AI generated 2](assets/image2.png)
 
-This one is a little risky, as in some actual human made professional sites use this remark, but the key word is "some". Most sites that use these stylistic options are almost certainly AI (usually), This one is a little risky, as in some actual human made professional sites use this remark, but the key word is "some". Most sites that use these stylistic options are almost certainly AI (usually), because AI has no creativity, it just uses the same stuff fed into its brain and morphs it into a way that you want. AI models are very good at reproducing familiar patterns. Without thoughtful direction and revision, that can result in work that feels polished but strangely interchangeable.
+This one is a little risky, as in some actual human made professional sites use this remark, but the key word is "some". Most sites that use these stylistic options are almost certainly AI (usually), because AI has no creativity, it just uses the same stuff fed into its brain and morphs it into a way that you want. AI models are very good at reproducing familiar patterns. Without thoughtful direction and revision, that can result in work that feels polished but strangely interchangeable.
 because AI has no creativity, it just uses the same stuff fed into its brain and morphs it into a way that you want. AI models are very good at reproducing familiar patterns. Without thoughtful direction and revision, that can result in work that feels polished but strangely interchangeable.
 
 3. They use em dashes literally everywhere.
@@ -162,7 +162,7 @@ Also, something like:
 ================================================== */
 ```
 
-...also slightly sounds, but the bare difference is that they use equal signs instead of normal dashes (BUT NORMAL PROGRAMMERS USE BOTH SOMETIMES!) and again, the text wouldn't be capitalized normally (key word: normally) when a human is writing them, which is another sign AI wrote this code.
+...also slightly sounds AI, but the bare difference is that they use equal signs instead of normal dashes (BUT NORMAL PROGRAMMERS USE BOTH SOMETIMES!) and again, the text wouldn't be capitalized normally (key word: normally) when a human is writing them, which is another sign AI wrote this code.
 
 Another spot to check if something is vibecoded (mainly for ChatGPT models, not Claude or Gemini models) is to see if the code is VERY spaced out. For example:
 
