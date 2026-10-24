@@ -98,6 +98,28 @@ because AI has no creativity, it just uses the same stuff fed into its brain and
 
 If the text uses em dashes sparsely or rarely or not a ton instead of it being the replacement for the beautiful comma, it may not be AI writing! Some actual humans use em dashes, frequently or non frequently, but it's something to keep in mind of.
 
+4. Names
+
+This is a big red flag. Since AI crawls the internet and learns from it, it finds a lot of space related names and such. Why is this relevant you ask? Well, the name of the site, or the names of the AIs on that site or such, when the site is vibecoded usually has these common names:
+
+- Nova
+- Helix
+- Vexel
+- Zyro
+- Kairo
+- Noxen
+- Orbyte
+- Kyro
+- Axiom
+- Vanta
+- Nyx
+- Zephyr
+- Klyro
+- Onyx
+- Zuno
+
+Any generic space themed startup company name is usually a red flag that the site is vibecoded nonetheless.
+
 ## Step 2: How does it look?
 
 This is the big part.
