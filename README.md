@@ -245,3 +245,9 @@ Sources and information:
 - My brain
 
 Do you have something to add or remove or reword in this guide? Open an issue or a PR!
+
+<a href="https://github.com/auth1ery/how-to-spot-something-that-is-vibecoded/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=auth1ery/how-to-spot-something-that-is-vibecoded" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
