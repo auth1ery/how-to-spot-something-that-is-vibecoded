@@ -147,7 +147,7 @@ Look for these comments, let's go forward with them one by one and why a normal 
 For one,
 
 ```javascript
-—————————————— WORKING STATE ———————————————————
+// —————————————— WORKING STATE ———————————————————
 ```
 
 A normal human wouldn't go out of their way to use em dashes instead of the good 'ol normal dash. Something like "------------------ WORKING STATE -----------" would be a bit more human, but why are we even capitalizing the text? Some real humans capitalize their comments, but usually it would be either normal grammar or lowercase text. The em dashes are the main red flag though, again some real people who uses their keyboard to write out functions instead of writing a prompt usually wouldn't use em dashes, and sometimes they capitalize their comments.
