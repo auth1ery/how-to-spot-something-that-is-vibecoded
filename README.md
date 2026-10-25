@@ -253,17 +253,17 @@ However this guide is not 100% ACCURATE! As they always say, the suspect is inno
 
 This guide is only useless if the site is open-source and has Claude listed as a contributor in the contributor section.
 
-Sources and information:
-- https://www.reddit.com/r/vibecoding/comments/1p5vfjr/i_analysed_500_vibe_coded_websites_heres_what_i/
-- https://www.reddit.com/r/vibecoding/comments/1qas3fc/is_there_a_way_to_see_if_an_appsite_has_been/
-- https://www.anthropic.com/research
-- https://openai.com/research/index/
-- https://en.wikipedia.org/wiki/Vibe_coding
-- https://unu.edu/inweh/collection/environmental-cost-of-AIs-Enrgy-Use-Carbon-water-and-land-footprints
-- https://libguides.ecu.edu/c.php?g=1395131&p=10318505
-- https://globalcarbonfund.com/carbon-news/ais-environmental-cost-data-centers-now-rival-entire-nations-in-energy-water-and-land-use/
-- https://guides.library.queensu.ca/c.php?g=740510&p=5344286
-- https://github.com/levz0r/awesome-vibecoded-apps
+## Sources and information:
+- <https://www.reddit.com/r/vibecoding/comments/1p5vfjr/i_analysed_500_vibe_coded_websites_heres_what_i/>
+- <https://www.reddit.com/r/vibecoding/comments/1qas3fc/is_there_a_way_to_see_if_an_appsite_has_been/>
+- <https://www.anthropic.com/research>
+- <https://openai.com/research/index/>
+- <https://en.wikipedia.org/wiki/Vibe_coding>
+- <https://unu.edu/inweh/collection/environmental-cost-of-AIs-Enrgy-Use-Carbon-water-and-land-footprints>
+- <https://libguides.ecu.edu/c.php?g=1395131&p=10318505>
+- <https://globalcarbonfund.com/carbon-news/ais-environmental-cost-data-centers-now-rival-entire-nations-in-energy-water-and-land-use/>
+- <https://guides.library.queensu.ca/c.php?g=740510&p=5344286>
+- <https://github.com/levz0r/awesome-vibecoded-apps>
 - My brain
 
 Do you have something to add or remove or reword in this guide? Open an issue or a PR!
