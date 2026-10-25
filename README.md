@@ -36,7 +36,7 @@ Finally, let's get into it.
 
 ## Now, what is vibecoding?!
 
-A lot of people get the term "vibecoding" wrong as in "code whatever the hell you want and make it work even if its horrible" and NO! It's no. Please stop calling yourself a vibecoder if you DO write stuff with your hands yourself and NOT use artificial intelligence to do it for you instead. Now...
+A lot of people get the term "vibecoding" wrong as in "code whatever the hell you want and make it work even if its horrible" and NO! It's not. Please stop calling yourself a vibecoder if you DO write stuff with your hands yourself and NOT use artificial intelligence to do it for you instead. Now...
 
 Think of vibecoding as asking your servant to fetch you some cookies to share with your friends. You tell your servant:
 
@@ -150,7 +150,7 @@ By stupid fucking font I mean something like:
 
 ![this](assets/image4.png)
 
-(aka the Lust font, see https://fontlot.com/lust-font-family/)
+(aka the Lust font, see <https://fontlot.com/lust-font-family/>)
 
 By unicode symbols I mean something like:
 
