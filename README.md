@@ -8,6 +8,8 @@ This guide is only useful if you're trying to find out if a program is vibecoded
 
 I used to be a vibecoder myself, but I've broken out of that habit, and now I'm using my knowledge to educate you on how to spot a site that is **Vibecoded (TM)**!
 
+![your ai slop bores me](assets/youraislop.png)
+
 First of all, let's tell you some disclaimers before you proceed:
 
 ## Disclaimers (read this so you aren't a biased insufferable human)
@@ -131,6 +133,8 @@ A lot of vibecoded sites usually have the same distinctive generic features to t
 3. Buttons and such have generic glowing hover effects
 4. This stupid fucking font (will elaborate)
 5. They use unicode symbols
+6. “Bento grid” for absolutely everything
+7. Fake product screenshots
 
 This is not a complete list, but these are the more common design aspects AI loves most. Let's elaborate simply for the ones that are not immediately obvious, we don't want to over-explain:
 
@@ -138,7 +142,7 @@ By emojis, I mean something like:
 
 ![this](assets/image.png)
 
-...something that uses emojis weirdly where it'll be better to use a picture, an icon (SVG or unicode) or just text by itself.
+...something that uses emojis weirdly where it'll be better to use a picture, an icon or just text by itself.
 
 By grids I mean something like:
 
@@ -157,6 +161,12 @@ By unicode symbols I mean something like:
 ![this](assets/image6.png)
 
 This one, again, is slightly risky to judge as some actual websites use this design aspect, but this one (the image above) is usually what an AI would make.
+
+If the website has fake product screenshots (HTML mockups of the real thing) it is a huge red flag that the website is vibecoded and just a big red flag in general. The AI can't make screenshots and put them in the project easily by themselves so they usually make mockups with HTML and CSS that looks like the product itself but has a ton of inconsistencies and just wrong styling compared to the actual thing.
+
+A bento grid is basically a grid with different sizes of shapes in the grid. An example is something like this:
+
+![bento grid](assets/image7.png)
 
 ## Step 3: How does it even work?
 
@@ -241,6 +251,10 @@ The important thing to remember is that **working code and good code aren't nece
 
 A site can load, look pretty, and even have working features while still containing unnecessary complexity, fragile implementations, and serious oversights.
 
+Here's an image example of AI generated code if the vibecoder was lazy and didn't tell the AI to avoid certain things:
+
+![example of AI generated code](assets/image8.png)
+
 Don't judge a project by how many files it has, how modern its framework is, or whether its developer uses a particular coding style. Judge it with this guide... but wait, you don't know how to use this guide to detect vibecoded sites without using AI to do it? What a perfect time to tell you:
 
 ## How to use this guide (in the real world)
@@ -260,8 +274,10 @@ This guide is only useless if the site is open-source and has Claude listed as a
 - <https://openai.com/research/index/>
 - <https://en.wikipedia.org/wiki/Vibe_coding>
 - <https://unu.edu/inweh/collection/environmental-cost-of-AIs-Enrgy-Use-Carbon-water-and-land-footprints>
+- <https://www.creativemindhabits.com/posts/2026-06-21-how-to-make-your-vibe-coded-app-not-look-vibe-coded/>
 - <https://libguides.ecu.edu/c.php?g=1395131&p=10318505>
 - <https://globalcarbonfund.com/carbon-news/ais-environmental-cost-data-centers-now-rival-entire-nations-in-energy-water-and-land-use/>
+- <https://www.reddit.com/r/VibeCodeDevs/comments/1whx4cp/how_do_you_make_vibecoded_websites_not_look/>
 - <https://guides.library.queensu.ca/c.php?g=740510&p=5344286>
 - <https://github.com/levz0r/awesome-vibecoded-apps>
 - My brain
